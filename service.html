@@ -1,0 +1,17 @@
+<html>
+<body bgcolor="skyblue">
+
+<h2>HAdoop services</h2>
+
+<form action="/cgi-bin/service.py" method="POST">
+<input type="radio"  name="h1" value="hv1" required> <p> Hadoop v1 </p><br/>
+<input type="radio"  name="h1" value="hv2" required> <p> Hadoop v2 </p><br/>
+<input type="number"  name="nm" required> <p> number of Nodes </p> 
+<input type="radio" name="ss"  value="od" required> only datanode 
+<input type="radio" name="ss"  value="dwn" required> datanode with nodemanager
+<input type="radio" name="ss"  value="on" required> only nodemanager
+		<input type="submit" value="Get">
+
+
+</body>
+</html>

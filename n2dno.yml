@@ -1,0 +1,7 @@
+---
+ - hosts: combo
+   tasks:
+    - name: starting  datanodes only 
+      shell: '/hadoop2/sbin/hadoop-daemon.sh  start datanode'
+
+
